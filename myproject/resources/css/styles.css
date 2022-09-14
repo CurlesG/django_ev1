@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&family=Roboto+Mono:wght@700&display=swap');
+
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+}
+.navbar-brand{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+}
+.card-title{
+    font-family: 'Roboto Mono', monospace;
+}
+.btn{
+    font-family: 'Roboto Mono', monospace;
+}
+.nav-link{
+    font-family: 'Roboto Mono', monospace;
+}
+/* #service{
+    font-weight: bolder;
+} */
+
+.card{
+    background-color:#d7e5f0;
+    margin-left: 6rem;
+    display: inline-flex;   
+    border: 1.5px solid black;
+}
+/* Br.96wkPE2 */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #d1edf2;
+    color: black;    
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.container {
+    /* background-color: black; */
+    padding:1rem;
+    padding-bottom:5rem;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.container-desc{
+    text-align:center;
+    padding:1rem;
+}
+.container-desc p{
+    text-align:center;
+    padding:1rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.img-container img{
+    width:30%;
+    height:auto;
+    
+}
+
+.img-fluid{
+    width:30%;
+    height: 0%;
+}
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}
+
+.form{
+    width:75%;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.form-container{
+    border-radius: 25px;
+    border: 4px solid #bac8f7;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width:50%;
+    padding: 30px;
+    margin-top: 50px;
+    background-color:#d7e5f0
+}
+label{
+    font-family: 'Roboto Mono', monospace;
+}
+.form-control{
+    border: 2px solid #bac8f7;
+    font-family: 'Open Sans', sans-serif;
+}
